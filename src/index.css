@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #202124;
+  color: #3a5a40;
 }
 
 h1,
@@ -19,7 +19,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background: #344e41;
   gap: 14px;
 }
 
@@ -59,11 +59,11 @@ header input {
   padding: 14px 18px;
   border: none;
   outline: none;
-  background: white;
+  background: #dad7cd;
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .main {
@@ -78,11 +78,12 @@ p {
   gap: 14px;
   padding: 14px;
   border-radius: 14px;
-  background: white;
+  background: #dad7cd;
 }
 
 .todoItem p {
   flex: 1;
+  font-weight: bold;
 }
 
 .actionsContainer {
@@ -96,6 +97,7 @@ p {
   border: none;
   background: transparent;
   cursor: pointer;
+  font-size: 1em;
 }
 
 .actionsContainer button:hover {
@@ -112,6 +114,10 @@ p {
   }
 
   p {
-    font-size: 1em;
+    font-size: 1.3em;
+  }
+
+  .actionsContainer button {
+    font-size: 1.3em;
   }
 }
